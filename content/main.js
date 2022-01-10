@@ -5,13 +5,22 @@ export const attributes = {
       link: '/#portofolio',
       text: 'My work',
     },
-    heading: "I'm Paco Cu, and I create",
+    heading: "I'm Kimberley, and I like to create",
     image: '/img/hero.jpeg',
     secondButton: { icon: 'whatsapp', link: '/#contact', text: 'Contact' },
     social: {
-      facebook: { link: 'https://facebook.com', show: true },
-      instagram: { link: 'https://instagram.com', show: true },
-      linkedin: { link: 'https://linkedin.com', show: true },
+      facebook: {
+        link: 'https://www.facebook.com/kimberley.blankenhorn',
+        show: true,
+      },
+      instagram: {
+        link: 'https://www.instagram.com/ksblankenhorn/',
+        show: true,
+      },
+      linkedin: {
+        link: 'https://www.linkedin.com/in/kimberley-blankenhorn-00231426/',
+        show: true,
+      },
     },
     typed: [
       { text: 'fast websites.' },
@@ -21,66 +30,70 @@ export const attributes = {
   },
   about: {
     heading: 'Who am I?',
-    image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    image: '/img/myImage.jpeg',
+    text:
+      'I love to code, I love learning to code and I love cooking and travelling!  \n',
   },
   features: [
     {
       icon: 'monitor-screenshot',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'UI/UX',
     },
     {
       icon: 'draw',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'Logo Design',
     },
     {
       icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'Web Development',
     },
   ],
   portfolio: {
     projects: [
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-1.jpeg',
-        title: 'ShopoShopy',
+        btnLink: '',
+        btnText: 'Coming Soon!',
+        image: '/img/coming-soon.jpeg',
+        title: '',
       },
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-2.jpeg',
-        title: 'LogoLogy',
+        btnLink: '',
+        btnText: '',
+        image: '',
+        title: '',
       },
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-3.jpeg',
-        title: 'SitoSity',
+        btnLink: '',
+        btnText: '',
+        image: '',
+        title: '',
       },
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-4.jpeg',
-        title: 'DrawoDrawy',
+        btnLink: '',
+        btnText: '',
+        image: '',
+        title: '',
       },
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-5.jpeg',
-        title: 'PagoPagy',
+        btnLink: '',
+        btnText: '',
+        image: '',
+        title: '',
       },
       {
-        btnLink: 'https://behance.com',
-        btnText: 'View on Behance',
-        image: '/img/project-6.jpeg',
-        title: 'UIoUXy',
+        btnLink: '',
+        btnText: '',
+        image: '',
+        title: '',
       },
     ],
     title: 'My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Kimberley Blankenhorn' },
 };
