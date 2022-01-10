@@ -19,7 +19,8 @@ const About = ({ data }) => {
         style={{
           backgroundImage: `url('${image}')`,
           backgroundPosition: 'bottom',
-          backgroundSize: '300px 300px',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
         }}
       />
     </div>
