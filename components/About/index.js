@@ -18,7 +18,7 @@ const About = ({ data }) => {
         className="about_right"
         style={{
           backgroundImage: `url('${image}')`,
-          backgroundPosition: 'bottom',
+          backgroundPosition: 'center',
           backgroundSize: '300 * 300',
         }}
       />
