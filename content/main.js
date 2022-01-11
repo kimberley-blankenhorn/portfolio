@@ -31,26 +31,22 @@ export const attributes = {
   about: {
     heading: 'Who am I?',
     image: '/img/myImage.jpeg',
-    text:
-      'I love to code, I love learning to code and I love cooking and travelling!  \n',
+    text: 'I love to code, I love learning to code and I love cooking and travelling!  \n',
   },
   features: [
     {
       icon: 'monitor-screenshot',
-      text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'UI/UX',
     },
     {
       icon: 'draw',
-      text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'Logo Design',
     },
     {
       icon: 'xml',
-      text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
       title: 'Web Development',
     },
   ],
